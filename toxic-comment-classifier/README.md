@@ -9,9 +9,9 @@ A collaborative machine learning project focused on detecting toxic online comme
 
 ## Team Members
 
-- [**Dwiti**](https://github.com/DwitiThaker)  
+- [**Dwiti Thaker**](https://github.com/DwitiThaker)  
 - [**Bhavya Mistry**](https://github.com/Bhavya-Mistry)  
-- [**manan-25**](https://github.com/manan-25)
+- [**Manan Sharma**](https://github.com/manan-25)
 
 ---
 
