@@ -71,7 +71,7 @@ To build a robust and interpretable classifier to detect toxic comments and comp
 - Comparison visualizations and confusion matrices included in the notebook  
 - Insights discussed for each model performance
 
-> See detailed results in the [Toxic.ipynb](Toxic.ipynb) notebook.
+> See detailed results in the [Toxic.ipynb](https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/blob/main/toxic-comment-classifier/Code/toxic-comment-classifier.ipynb) notebook.
 
 ---
 
