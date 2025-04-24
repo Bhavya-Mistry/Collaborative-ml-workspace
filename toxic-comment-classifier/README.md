@@ -9,9 +9,9 @@ A collaborative machine learning project focused on detecting toxic online comme
 
 ## Team Members
 
-- [**Dwiti**](https://github.com/DwitiThaker)  
+- [**Dwiti Thaker**](https://github.com/DwitiThaker)  
 - [**Bhavya Mistry**](https://github.com/Bhavya-Mistry)  
-- [**manan-25**](https://github.com/manan-25)
+- [**Manan Sharma**](https://github.com/manan-25)
 
 ---
 
@@ -71,7 +71,11 @@ To build a robust and interpretable classifier to detect toxic comments and comp
 - Comparison visualizations and confusion matrices included in the notebook  
 - Insights discussed for each model performance
 
-> See detailed results in the [Toxic.ipynb](Toxic.ipynb) notebook.
+**Logistic Regression** : 91.99 % <br>
+**SVM** : 91.96 %<br>
+**Naive Bayes** : 91.32 %<br>
+
+> See detailed results in the [Toxic.ipynb](https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/blob/main/toxic-comment-classifier/Code/toxic-comment-classifier.ipynb) notebook.
 
 ---
 
