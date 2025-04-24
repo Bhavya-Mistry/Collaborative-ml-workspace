@@ -71,6 +71,10 @@ To build a robust and interpretable classifier to detect toxic comments and comp
 - Comparison visualizations and confusion matrices included in the notebook  
 - Insights discussed for each model performance
 
+**Logistic Regression** : 91.99
+**SVM** : 91.96
+**Naive Bayes** : 91.32
+
 > See detailed results in the [Toxic.ipynb](https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/blob/main/toxic-comment-classifier/Code/toxic-comment-classifier.ipynb) notebook.
 
 ---
