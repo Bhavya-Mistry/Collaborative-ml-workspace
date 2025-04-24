@@ -96,7 +96,7 @@ To build a robust and interpretable classifier to detect toxic comments and comp
 To run this project on your local machine:
 
 ```bash
-git clone https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/Toxic
+git clone https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/tree/main/toxic-comment-classifier
 cd toxic-comment-classifier
 pip install -r requirements.txt
 jupyter notebook toxic-comment-classifier.ipynb
