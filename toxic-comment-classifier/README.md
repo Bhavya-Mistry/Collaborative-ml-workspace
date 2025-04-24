@@ -75,6 +75,11 @@ To build a robust and interpretable classifier to detect toxic comments and comp
 **SVM** : 91.96 %<br>
 **Naive Bayes** : 91.32 %<br>
 
+![Logistic Regression f1 scores](toxic-comment-classifier/Output-Images/img1.png)
+![SVM f1 scores](toxic-comment-classifier/Output-Images/img2.png)
+![Naive Bayes f1 scores](toxic-comment-classifier/Output-Images/img3.png)
+
+
 > See detailed results in the [Toxic.ipynb](https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/blob/main/toxic-comment-classifier/Code/toxic-comment-classifier.ipynb) notebook.
 
 ---
