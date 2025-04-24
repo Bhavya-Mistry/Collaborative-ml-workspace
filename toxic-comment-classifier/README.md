@@ -99,4 +99,4 @@ To run this project on your local machine:
 git clone https://github.com/Bhavya-Mistry/Collaborative-ml-workspace/Toxic
 cd toxic-comment-classifier
 pip install -r requirements.txt
-jupyter notebook Toxic.ipynb        
+jupyter notebook toxic-comment-classifier.ipynb
