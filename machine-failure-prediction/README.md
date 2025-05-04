@@ -58,7 +58,6 @@ We use a **Random Forest Classifier** for binary classification:
 | `PM_train.txt` | Training dataset with failure history |
 | `PM_test.txt` | Test dataset without labels |
 | `truth.txt` | True remaining cycles before failure for test units |
-| `predictive_maintenance_rf.ipynb` | Main notebook with model training and evaluation |
 | `README.md` | Project documentation |
 
 ## 🛠️ How to Run
