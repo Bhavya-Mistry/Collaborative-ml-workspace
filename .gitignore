@@ -1,0 +1,27 @@
+# Virtual environment folder
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Streamlit cache (optional)
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE files (VS Code)
+.vscode/
+
+
+#keys
+
+.env
