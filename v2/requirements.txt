@@ -1,0 +1,14 @@
+streamlit
+joblib
+numpy
+pandas
+matplotlib
+scikit-learn==1.6.1
+pdfplumber
+python-docx
+google-generativeai
+python-dotenv
+plotly
+fastapi
+uvicorn
+requests
