@@ -22,6 +22,10 @@ Thumbs.db
 .vscode/
 
 
+#logs
+*.log
+
+
 #keys
 
 .env
