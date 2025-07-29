@@ -3,7 +3,7 @@ joblib
 numpy
 pandas
 matplotlib
-scikit-learn==1.6.1
+scikit-learn
 pdfplumber
 python-docx
 google-generativeai

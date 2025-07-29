@@ -10,7 +10,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
 # ⚠ Use the lighter model to avoid quota issues
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 def get_gemini_response(prompt):
     try:

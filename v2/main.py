@@ -28,9 +28,9 @@ label_encoder = None
 @app.on_event("startup")
 def load_models():
     global career_model, mlb_dict, label_encoder
-    career_model = joblib.load(r"saved-models/career_model.pkl")
-    mlb_dict = joblib.load(r"saved-models/mlb_dict.pkl")
-    label_encoder = joblib.load(r"saved-models/label_encoder.pkl")
+    career_model = joblib.load(r"trained-models/careermodel.pkl")
+    mlb_dict = joblib.load(r"trained-models/mlbdict.pkl")
+    label_encoder = joblib.load(r"trained-models/labelencoder.pkl")
 
 @app.get("/")
 def root():
@@ -80,8 +80,20 @@ def predict_career(
     try:
         # This expects the client to send all necessary features as a dict
         df = pd.DataFrame([features])
+        # Log input columns and model expected features
+        print(f"Input features columns: {df.columns.tolist()}")
+        print(f"Model expected features: {career_model.feature_names_in_.tolist()}")
+        # Check for missing columns and add them with 0
+        for col in career_model.feature_names_in_:
+            if col not in df.columns:
+                df[col] = 0
+        # Reorder columns to match model input
+        df = df[career_model.feature_names_in_]
         pred = career_model.predict(df)[0]
         label = label_encoder.inverse_transform([pred])[0]
         return {"recommended_career": label}
     except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        import traceback
+        tb = traceback.format_exc()
+        print(f"Error in predict_career: {tb}")
+        return JSONResponse(status_code=500, content={"error": str(e), "traceback": tb})
