@@ -9,7 +9,7 @@ python-docx
 google-generativeai
 python-dotenv
 plotly
-fastapi
+fastapi[all]
 uvicorn
 requests
 python-multipart
