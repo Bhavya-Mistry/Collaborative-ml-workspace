@@ -81,8 +81,8 @@ def predict_career(
         # This expects the client to send all necessary features as a dict
         df = pd.DataFrame([features])
         # Log input columns and model expected features
-        print(f"Input features columns: {df.columns.tolist()}")
-        print(f"Model expected features: {career_model.feature_names_in_.tolist()}")
+        # print(f"Input features columns: {df.columns.tolist()}")
+        # print(f"Model expected features: {career_model.feature_names_in_.tolist()}")
         # Check for missing columns and add them with 0
         for col in career_model.feature_names_in_:
             if col not in df.columns:
