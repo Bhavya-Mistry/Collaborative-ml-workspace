@@ -7,7 +7,7 @@ import os
 import plotly.graph_objects as go
 import re
 
-API_BASE = os.getenv("API_BASE", "http://localhost:8000")
+API_BASE = os.getenv("API_BASE", "https://https://future-trail.onrender.com")
 
 st.set_page_config(page_title="Future Trail | Career Navigator", layout="wide", page_icon="🚀")
 
