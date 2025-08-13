@@ -55,6 +55,25 @@ def save_new_user(username, name, hashed_password, email):
         st.error(f"Error saving new user: {error}")
         return False
 
+
+# Store the predicted career in the database
+def update_user_career(username, career):
+    """Updates the user's predicted career in the database."""
+    try:
+        with get_db_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "UPDATE users SET career = %s WHERE username = %s",
+                    (career, username)
+                )
+                conn.commit()
+        return True
+    except (Exception, psycopg2.DatabaseError) as error:
+        if 'conn' in locals() and conn is not None:
+            conn.rollback()
+        st.error(f"Error updating career: {error}")
+        return False
+
 # --- USER AUTHENTICATION (Using Database) ---
 # Fetch credentials from the database instead of a file
 user_credentials = fetch_users()
