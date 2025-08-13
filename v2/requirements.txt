@@ -1,15 +1,32 @@
+# Streamlit Frontend & UI
 streamlit
-joblib
-numpy
-pandas
-matplotlib
-scikit-learn
-pdfplumber
-python-docx
-google-generativeai
-python-dotenv
+streamlit-authenticator
 plotly
+matplotlib
+
+# Backend API
 fastapi
 uvicorn
-requests
 python-multipart
+requests
+
+# Machine Learning & Data
+scikit-learn
+pandas
+numpy
+joblib
+
+# Database Connector
+psycopg2-binary
+
+# File & Text Processing
+pdfplumber
+python-docx
+
+# Google Gemini API & Environment
+google-generativeai
+python-dotenv
+
+# Utilities (though often dependencies, good to list)
+PyYAML
+bcrypt
