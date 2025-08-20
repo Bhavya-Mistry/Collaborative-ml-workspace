@@ -1,8 +1,0 @@
-Flask
-Flask-SQLAlchemy
-Flask-Bcrypt
-Flask-Marshmallow
-psycopg2-binary
-Flask-CORS
-marshmallow-sqlalchemy
-python-dotenv
